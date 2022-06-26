@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <main class="container">
+        <h1>Gerador de senhas</h1>
+
+        <div class="senha-gerada">Selecione as opções</div>
+
+        <label for="caracteres">Quantidade de caracteres</label>
+        <input type="number" value="10" min="1" max="50" class="qtd-caracteres">
+
+        <div class="checkbox">
+            <label for="maiusculas">Adicionar maiúsculas</label>
+            <input type="checkbox" class="chk-maiusculas"><br>
+    
+            <label for="minusculas">Adicionar minúsculas</label>
+            <input type="checkbox" class="chk-minusculas" checked><br>
+    
+            <label for="numeros">Adicionar numeros</label>
+            <input type="checkbox" class="chk-numeros" checked><br>
+    
+            <label for="simbolos">Adicionar simbolos</label>
+            <input type="checkbox" class="chk-simbolos">
+        </div>
+
+        <button class="gerar-senha">Gerar senha</button>
+    </main>
+    
+    <script src="./assets/js/bundle.js"></script>
+</body>
+</html>
